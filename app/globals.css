@@ -2,26 +2,97 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.lg-button {
+    border-top: 1px solid #000;
+    border-right: 4px solid #000;
+    border-bottom: 5px solid #000;
+    border-left: 1px solid #000;
+    background: #FFF;
+    height: 60px;
+    border-radius: 30px;
+    padding: 0 40px;
+    white-space: nowrap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.lg-button:active {
+    border-right: 2px solid #000;
+    border-bottom: 3px solid #000;
+    margin-left: 2px;
+    margin-top: 2px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.lg-button:hover {
+    background: #F3F3F3;
+}
+
+.heading1 {
+    font-family: var(--font-domine);
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.heading2 {
+    font-family: var(--font-domine);
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.heading3 {
+    font-family: var(--font-domine);
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.body1 {
+    font-family: var(--font-josefine-sans);
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.body2 {
+    font-family: var(--font-josefine-sans);
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.lg-button-text {
+    font-family: var(--font-josefine-sans);
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.md-button-text {
+    font-family: var(--font-josefine-sans);
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.animatedPath {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 0;
+    animation: dash 3s linear infinite alternate;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 1;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
