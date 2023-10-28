@@ -37,11 +37,11 @@ const Navbar = ({
                         id="navbar-default"
                     >
                         <li><a href="/files/anastasiia-pirus-resume.pdf" target="_blank" rel="noopener noreferrer">
-                            <p className="lg-button-text px-10 mt-2">Download CV</p></a></li>
+                            <p className="lg-button-text px-10 ">Download CV</p></a></li>
                     </ul>
                     <Link href="https://calendar.app.google/V2xq2ief2Xrw8DDr6" rel="noopener noreferrer" target="_blank"
                           className="no-underline hidden md:block">
-                        <button className="hidden md:block lg-button"><p className="lg-button-text mt-2">
+                        <button className="hidden md:block lg-button"><p className="lg-button-text ">
                             Book a call</p>
                         </button>
                     </Link>

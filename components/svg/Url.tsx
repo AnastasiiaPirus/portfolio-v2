@@ -1,14 +1,11 @@
-import React from 'react';
-
 function Url() {
     return (
-        <div>
-            <svg xmlns="http://www.w3.org/2000/svg"
-                 width="100%" viewBox="0 0 392 488">
+        <>
+            <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 392 488">
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M56.500000,70.500000
 	C55.082222,80.500000 55.033020,90.454391 56.376568,100.516479
@@ -29,7 +26,7 @@ M56.500000,70.500000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M335.500000,265.000000
 	C335.942352,264.660339 336.585266,265.559021 337.062012,264.528687
@@ -53,7 +50,7 @@ M335.500000,265.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M253.500000,60.000000
 	C251.696899,66.219902 252.235275,72.386429 254.009308,78.497299
@@ -67,7 +64,7 @@ M253.500000,60.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M119.500000,91.000000
 	C120.333336,102.166664 121.337952,113.324036 121.944870,124.502991
@@ -80,7 +77,7 @@ M119.500000,91.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M337.000000,265.500000
 	C338.127991,274.816162 337.455841,284.169922 337.429962,293.499817
@@ -92,7 +89,7 @@ M337.000000,265.500000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="13.000000"
+                      strokeWidth="10.000000"
                       d="
 M162.000000,206.000000
 	C155.962967,203.901154 149.693176,204.227280 143.505005,204.586334
@@ -108,7 +105,7 @@ M162.000000,206.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M232.500000,211.000000
 	C244.245911,208.227585 254.196808,211.547379 261.936951,220.554184
@@ -128,7 +125,7 @@ M232.500000,211.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M106.000000,253.000000
 	C99.037430,257.050079 98.210419,264.468536 97.760376,271.017883
@@ -144,7 +141,7 @@ M106.000000,253.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M204.500000,85.000000
 	C203.721329,89.092667 205.481262,93.004707 205.431046,96.999130
@@ -155,7 +152,7 @@ M204.500000,85.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M243.500000,266.000000
 	C227.528702,269.702209 211.302368,270.311981 194.885986,269.434692
@@ -166,7 +163,7 @@ M243.500000,266.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="13.000000"
+                      strokeWidth="10.000000"
                       d="
 M245.000000,265.000000
 	C243.416870,250.614410 237.772949,237.305466 234.035492,223.490402
@@ -181,7 +178,7 @@ M245.000000,265.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M278.000000,254.000000
 	C267.088470,259.195099 255.899918,263.605316 243.112030,265.271820
@@ -192,7 +189,7 @@ M278.000000,254.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M138.500000,268.500000
 	C136.483322,277.231445 135.384628,285.828583 136.140823,295.029510
@@ -201,7 +198,7 @@ M138.500000,268.500000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M194.000000,197.500000
 	C194.963181,209.650421 196.618973,221.794037 195.920609,233.995453
@@ -210,7 +207,7 @@ M194.000000,197.500000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M227.500000,336.000000
 	C223.258087,333.591278 218.807892,333.221619 213.989822,333.930817
@@ -219,7 +216,7 @@ M227.500000,336.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="13.000000"
+                      strokeWidth="10.000000"
                       d="
 M187.000000,335.000000
 	C177.866043,333.700195 168.741364,332.338104 159.504929,331.896881
@@ -231,7 +228,7 @@ M187.000000,335.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M229.500000,213.000000
 	C222.340912,219.414139 213.891708,221.438644 204.496048,220.541458
@@ -240,7 +237,7 @@ M229.500000,213.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M185.000000,121.000000
 	C175.366928,120.862297 166.160614,122.606041 157.471863,126.943649
@@ -249,7 +246,7 @@ M185.000000,121.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M148.500000,114.000000
 	C147.770813,117.675598 148.926956,121.343910 150.244247,124.394531
@@ -259,7 +256,7 @@ M148.500000,114.000000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M270.500000,322.500000
 	C265.890228,321.351257 261.403687,322.152588 257.008270,323.526489
@@ -273,14 +270,14 @@ M270.500000,322.500000
                 <path pathLength="1" className="animatedPath" fill="none" opacity="1.000000" stroke="#000000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="14.000000"
+                      strokeWidth="10.000000"
                       d="
 M110.500000,319.500000
 	C117.217628,319.007935 123.241508,323.691040 129.474060,323.182251
 	C138.800949,322.420746 142.595032,329.981354 149.000000,333.500000
 "/>
             </svg>
-        </div>
+        </>
     );
 }
 

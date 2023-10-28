@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: #FFFEFC;
+}
 
 .lg-button {
     border-top: 1px solid #000;
@@ -24,6 +27,39 @@
 
 .lg-button:hover {
     background: #F3F3F3;
+}
+
+.md-button {
+    border-top: 1px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-left: 1px solid #000;
+    background: #FFF;
+    height: 40px;
+    border-radius: 8px;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+
+.md-button:active {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.md-button:hover {
+    background: #F3F3F3;
+}
+
+.border-md {
+    border-radius: 8px;
+    border-top: 1px solid #000;
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-left: 1px solid #000;
+    background: #FFF;
+    padding: 16px;
 }
 
 .heading1 {
@@ -85,7 +121,7 @@
 .animatedPath {
     stroke-dasharray: 1;
     stroke-dashoffset: 0;
-    animation: dash 3s linear infinite alternate;
+    animation: dash 1.5s linear;
 }
 
 @keyframes dash {
@@ -94,5 +130,22 @@
     }
     to {
         stroke-dashoffset: 0;
+    }
+}
+
+.slide {
+    opacity: 0;
+    animation: slide 1.5s linear infinite alternate;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
     }
 }
