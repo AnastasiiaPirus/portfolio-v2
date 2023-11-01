@@ -24,7 +24,7 @@ function ServicesCards() {
         },
         {
             id: 3,
-            text: "Writing articles and tutorials",
+            text: "Writing article and tutorials",
             display: "none",
             icon: <Writing/>
         },

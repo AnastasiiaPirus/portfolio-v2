@@ -12,7 +12,8 @@ function Project({
         <div className="container">
             <div
                 className="w-full bg-[#fffefc] rounded-lg flex flex-col md:flex-row items-stretch border-black border-solid border ">
-                <div className="w-full md:w-1/2 p-4 rounded-l-lg " style={{backgroundColor: color}}>
+                <div className="w-full md:w-1/2 p-4 md:rounded-l-lg rounded-t-lg md:rounded-tr-none "
+                     style={{backgroundColor: color}}>
                     <div className=" w-full aspect-[4/3] relative ">
                         <Image src={`/images/projects/${img}.png`} alt={`${title} screenshot`} fill
                                objectFit="contain"/>

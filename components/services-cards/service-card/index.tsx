@@ -9,7 +9,7 @@ function ServiceCard({
     return (
         <>
             <div style={{display: display}}
-                 className="border-md slide ">
+                 className="border-md slide p-4 ">
                 <div className="w-full flex flex-row justify-between align-center">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="122" height="16" viewBox="0 0 122 16"
