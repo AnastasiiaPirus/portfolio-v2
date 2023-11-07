@@ -123,6 +123,14 @@ body {
     animation: dash 1.5s linear;
 }
 
+.hover-scale {
+    transition: transform .2s;
+}
+
+.hover-scale:hover {
+    transform: scale(1.02);
+}
+
 @keyframes dash {
     from {
         stroke-dashoffset: 1;
@@ -147,4 +155,16 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+@media only screen and (max-width: 640px) {
+    .heading2 {
+        font-size: 40px;
+        white-space: normal;
+    }
+
+    .body2 {
+        word-break: break-word;
+    }
+
 }

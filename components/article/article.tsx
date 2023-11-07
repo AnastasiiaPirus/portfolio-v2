@@ -26,7 +26,7 @@ function Article({
     }
 
     return (
-        <div className={`${size === 'lg' ? ' lg:w-2/3 ' : ' lg:w-1/3 '} w-full p-2`}>
+        <div className={`${size === 'lg' ? ' lg:w-2/3 ' : ' lg:w-1/3 '} w-full p-2 hover-scale `}>
             <a href={link} rel="noopener noreferrer" target="_blank">
                 <div
                     className={`${position === 'left' ? ' lg:flex-row-reverse ' : position === 'right' ? ' lg:flex-row ' : position === 'top' ? ' flex-col ' : ' lg:flex-col-reverse '}bg-white rounded-lg flex flex-col  items-stretch border-md h-full `}>
@@ -39,11 +39,12 @@ function Article({
                         </div>
                     </div>
                     <div
-                        className={`w-full ${size === 'lg' ? ' lg:w-1/2 p-16 ' : ' w-full p-8 '}   flex flex-col justify-between aspect-[2/1]  ${size === 'lg' ? ' lg:aspect-square h-auto ' : ' lg:aspect-[2/1] h-1/2 '} relative`}>
+                        className={`w-full ${size === 'lg' ? ' lg:w-1/2 lg:p-16 p-8 ' : ' w-full p-8 '}   flex flex-col justify-between aspect-[2/1]  ${size === 'lg' ? ' lg:aspect-square h-auto ' : ' lg:aspect-[2/1] h-1/2 '} relative`}>
                         <div
                             className={`w-full h-auto  aspect-[2/1] ${size === 'lg' ? 'lg:aspect-square' : 'lg:aspect-[2/1]'} relative`}>
                             <Image src={`/images/articles/${img}`} alt={`${title} screenshot`} fill
-                                   objectFit="cover"/>
+                                   sizes="(max-width: 1024px) 100vw, 33vw"
+                                   style={{objectFit: "cover"}}/>
                         </div>
                     </div>
                 </div>
