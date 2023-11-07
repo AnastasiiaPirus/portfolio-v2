@@ -1,13 +1,13 @@
 import Image from "next/image";
 import {Project} from "@/app/page";
 
-function Project({
-                     title,
-                     description,
-                     color,
-                     img,
-                     links
-                 }: Project) {
+function ProjectLgTile({
+                           title,
+                           description,
+                           color,
+                           img,
+                           links
+                       }: Project) {
     return (
         <div className="container">
             <div
@@ -44,4 +44,4 @@ function Project({
     );
 }
 
-export default Project;
+export default ProjectLgTile;

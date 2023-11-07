@@ -107,6 +107,7 @@ body {
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
+    margin-top: 10px;
 }
 
 .md-button-text {
@@ -115,6 +116,7 @@ body {
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
+    padding-top: 5px;
 }
 
 .animatedPath {

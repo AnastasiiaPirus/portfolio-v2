@@ -1,10 +1,11 @@
 import HeroSection from "@/components/hero-section";
 import Divider from "@/components/divider";
-import Project from "@/components/project";
+import ProjectLgTile from "@/components/project-lg-tile";
 import Article from "@/components/article/article";
-import PROJECTS from "@/data/projects.json";
+import PROJECTS_LG from "@/data/projects-lg-tile.json";
+import PROJECTS_SM from "@/data/projects-sm-tile.json";
 import ARTICLES from "@/data/articles-preview.json";
-import ContactSection from "@/components/contact-section";
+import ProjectSmTile from "@/components/project-sm-tile";
 
 export type Project = {
     title: string;
@@ -26,17 +27,26 @@ export type Article = {
 
 export default function Home() {
 
-    const projects: Project[] = PROJECTS.projects;
+    const projectsLg: Project[] = PROJECTS_LG.projects;
+    const projectsSm: Project[] = PROJECTS_SM.projects;
     const articles: Article[] = ARTICLES.articles;
     return (
         <>
             <HeroSection/>
             <Divider title="Projects"/>
             <div>
-                {projects.map((project, index) => (
+                {projectsLg.map((project, index) => (
                     <div key={`${index}, ${project.title}`} className="my-8">
-                        <Project title={project.title} description={project.description} color={project.color}
-                                 img={project.img} links={project.links}/>
+                        <ProjectLgTile title={project.title} description={project.description} color={project.color}
+                                       img={project.img} links={project.links}/>
+                    </div>
+                ))}
+            </div>
+            <div className="container grid md:grid-cols-2 lg:grid-cols-3  gap-4">
+                {projectsSm.map((project, index) => (
+                    <div key={`${index}, ${project.title}`} className="h-full">
+                        <ProjectSmTile title={project.title} description={project.description} color={project.color}
+                                       img={project.img} links={project.links}/>
                     </div>
                 ))}
             </div>
@@ -49,10 +59,10 @@ export default function Home() {
                     ))}
                 </div>
             </div>
-            <div className="bg-[#EDF2FC] pb-8">
-                <Divider title="Contact Me"/>
-                <ContactSection/>
-            </div>
+            {/*<div className="bg-[#EDF2FC] pb-8">*/}
+            {/*    <Divider title="Contact Me"/>*/}
+            {/*    <ContactSection/>*/}
+            {/*</div>*/}
 
         </>
     )

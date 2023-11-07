@@ -1,0 +1,104 @@
+{
+  "projects": [
+    {
+      "title": "Fedd",
+      "description": "React/Typescript project with external API and GraphQL queries & mutations.",
+      "color": "#e8f4ce",
+      "img": "Fedd",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/AnastasiiaPirus/nyble-fedd-challenge"
+        }
+      ]
+    },
+    {
+      "title": "Kanban Board",
+      "description": "React Drag&Drop app with styled components made in few hours.",
+      "color": "#d9ddfb",
+      "img": "Kanban",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/AnastasiiaPirus/kanban-dashboard"
+        },
+        {
+          "name": "Visit Page",
+          "url": "https://anastasiiapirus.github.io/kanban-dashboard/"
+        }
+      ]
+    },
+    {
+      "title": "Portfolio",
+      "description": "Old version of my portfolio. Made with React and Styled components. Check out to see older projects!",
+      "color": "#f4c096",
+      "img": "Portfolio",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/AnastasiiaPirus/AnastasiiaPirus.github.io"
+        },
+        {
+          "name": "Visit Page",
+          "url": "https://anastasiiapirus.github.io/"
+        }
+      ]
+    },
+    {
+      "title": "Banking App",
+      "description": "React app with styled components.",
+      "color": "#a5ffb8",
+      "img": "BankingApp",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/AnastasiiaPirus/banking-app"
+        },
+        {
+          "name": "Visit Page",
+          "url": "https://anastasiiapirus.github.io/banking-app/"
+        }
+      ]
+    },
+    {
+      "title": "Cyberpunk-themed page",
+      "description": "HTML5 website with third-party weather API and Bootstrap.",
+      "color": "#ffa8b8",
+      "img": "Cyberpunk",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/AnastasiiaPirus/cyberpunk-themed-website"
+        },
+        {
+          "name": "Visit Page",
+          "url": "https://anastasiiapirus.github.io/cyberpunk-themed-website/"
+        }
+      ]
+    },
+    {
+      "title": "Finance",
+      "description": "Website to manage portfolios of stocks. Back-end made with Flask.",
+      "color": "#8fabd3",
+      "img": "Finance",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/AnastasiiaPirus/CS50-Projects/tree/main/finance"
+        }
+      ]
+    },
+    {
+      "title": "Wiki",
+      "description": "A Wikipedia-like online encyclopedia. Back-end made with Django.",
+      "color": "#e9e9e9",
+      "img": "Wiki",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/AnastasiiaPirus/CS50-Projects/tree/main/wiki"
+        }
+      ]
+    }
+  ]
+}
