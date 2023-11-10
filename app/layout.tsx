@@ -6,6 +6,7 @@ import Navigation from "@/components/navigation";
 import Divider from "@/components/divider";
 import ContactSection from "@/components/contact-section";
 
+
 export const metadata: Metadata = {
     title: 'Anastasiia Pirus - Portfolio of web developer',
     description: 'Anastasiia Pirus. Web developer in Canada.',

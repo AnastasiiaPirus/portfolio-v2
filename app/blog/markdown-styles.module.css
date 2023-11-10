@@ -1,0 +1,43 @@
+.markdown {
+    @apply text-lg leading-relaxed;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+    @apply my-6;
+    font-family: var(--font-josefine-sans);
+}
+
+.markdown h2 {
+    @apply text-3xl mt-12 mb-4 leading-snug;
+    font-family: var(--font-domine);
+}
+
+.markdown h3 {
+    @apply text-2xl mt-8 mb-4 leading-snug;
+    font-family: var(--font-domine);
+}
+
+.markdown code {
+    color: darkslategray;
+    white-space: pre-wrap;
+}
+
+.markdown a {
+    text-decoration: underline;
+}
+
+.markdown img {
+    margin: 16px auto;
+}
+
+.markdown ol {
+    list-style-type: decimal;
+}
+
+.markdown pre {
+    background-color: #f1f1f1;
+    padding: 16px;
+}
