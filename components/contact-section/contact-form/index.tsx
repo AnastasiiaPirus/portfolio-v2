@@ -1,7 +1,8 @@
 "use client";
 
 import {useState} from "react";
-import {FieldValues, SubmitHandler, useForm} from "react-hook-form";
+import {useForm} from "react-hook-form";
+// import {FieldValues, SubmitHandler, useForm} from "react-hook-form";
 import {zodResolver} from "@hookform/resolvers/zod";
 import * as z from "zod";
 
@@ -49,7 +50,7 @@ const ContactForm = () => {
         resolver: zodResolver(schema)
     });
 
-    const onSubmit: SubmitHandler<FieldValues> = handleSubmit(async (data) => {
+    const onSubmit = handleSubmit(async (data) => {
         setSubmitIsDisabled(true);
         setLoading(LOADING_STATES.LOADING);
         const endpoint = "/api/contact-form";
