@@ -49,7 +49,7 @@ const ContactForm = () => {
         resolver: zodResolver(schema)
     });
 
-    const onSubmit: SubmitHandler<FieldValues | undefined> = async (data) => {
+    const onSubmit: SubmitHandler<FieldValues> = handleSubmit(async (data) => {
         setSubmitIsDisabled(true);
         setLoading(LOADING_STATES.LOADING);
         const endpoint = "/api/contact-form";
@@ -79,7 +79,7 @@ const ContactForm = () => {
             setSubmitIsDisabled(false);
             setLoading(LOADING_STATES.ERROR);
         }
-    };
+    });
 
     if (isSubmitted) {
         return (
@@ -91,7 +91,7 @@ const ContactForm = () => {
 
     return (
         <div className="bg-[#EDF2FC] p-6 rounded-lg border-l border-r-2 border-t border-b-2 border-black">
-            <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-3">
+            <form onSubmit={onSubmit} className="flex flex-col gap-3">
                 <div className="w-full flex flex-col md:flex-row justify-between gap-3 ">
                     <div className="w-full md:w-3/6 flex flex-col">
                         <input
