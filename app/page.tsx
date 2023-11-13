@@ -29,7 +29,7 @@ export default function Home() {
 
     const projectsLg: Project[] = PROJECTS_LG.projects;
     const projectsSm: Project[] = PROJECTS_SM.projects;
-    const articles: ArticleType[] = ARTICLES.articles;
+    const articles: ArticleType[] = ARTICLES.articles as const;
     return (
         <>
             <HeroSection/>
