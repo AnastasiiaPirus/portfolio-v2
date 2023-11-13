@@ -1,6 +1,7 @@
 import fs from 'fs'
 import {join} from 'path'
 import matter from 'gray-matter'
+import Post from "@/interfaces/post";
 
 const postsDirectory = join(process.cwd(), '_posts')
 
@@ -14,11 +15,7 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
     const fileContents = fs.readFileSync(fullPath, 'utf8')
     const {data, content} = matter(fileContents)
 
-    type Items = {
-        [key: string]: string
-    }
-
-    const items: Items = {}
+    const items: Post = {content: "", coverImage: "", date: "", excerpt: "", slug: "", title: ""}
 
     // Ensure only the minimal needed data is exposed
     fields.forEach((field) => {

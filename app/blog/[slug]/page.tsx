@@ -13,18 +13,20 @@ export async function generateMetadata(
 ): Promise<Metadata> {
     const post = getPostBySlug(params.slug, [
         'title',
-        'date',
-        'slug',
-        'content',
         'coverImage',
+        'excerpt'
     ])
 
     return {
         title: `${post.title} | Development with A.Pirus`,
-        description: post.description,
+        description: post.excerpt,
         openGraph: {
             title: `${post.title} | Development with A.Pirus`,
-            description: post.description,
+            description: post.excerpt,
+            images: [{
+                url: post.coverImage,
+                alt: post.title
+            }]
         }
     };
 }
