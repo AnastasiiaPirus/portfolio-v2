@@ -17,7 +17,7 @@ export type Project = {
         url: string;
     }[];
 }
-export type Article = {
+export type ArticleType = {
     title: string;
     color: string;
     img: string;
@@ -29,7 +29,7 @@ export default function Home() {
 
     const projectsLg: Project[] = PROJECTS_LG.projects;
     const projectsSm: Project[] = PROJECTS_SM.projects;
-    const articles: Article[] = ARTICLES.articles;
+    const articles: ArticleType[] = ARTICLES.articles;
     return (
         <>
             <HeroSection/>
@@ -59,11 +59,6 @@ export default function Home() {
                     ))}
                 </div>
             </div>
-            {/*<div className="bg-[#EDF2FC] pb-8">*/}
-            {/*    <Divider title="Contact Me"/>*/}
-            {/*    <ContactSection/>*/}
-            {/*</div>*/}
-
         </>
     )
 }

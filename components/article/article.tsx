@@ -1,7 +1,5 @@
 import Image from "next/image";
-import {Article} from "@/app/page";
-
-// type Position = "left" | "right" | "top" | "bottom";
+import {ArticleType} from "@/app/page";
 
 function Article({
                      title,
@@ -9,7 +7,7 @@ function Article({
                      link,
                      color,
                      position
-                 }: Article) {
+                 }: ArticleType) {
 
 
     let size;
