@@ -18,7 +18,7 @@ export type Project = {
     }[];
 }
 export type ArticleType = {
-    title: string;
+    title: string | string[];
     color: string;
     img: string;
     link: string;
