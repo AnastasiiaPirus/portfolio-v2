@@ -34,7 +34,7 @@ function Article({
                         style={{backgroundColor: color}}>
                         <div className=" w-full relative ">
                             {size === "lg" ? <h2 className="heading2" style={{whiteSpace: "pre-line"}}>{title}</h2> :
-                                <h32 className="heading3">{`${title}`}</h32>}
+                                <h3 className="heading3">{`${title}`}</h3>}
                         </div>
                     </div>
                     <div
