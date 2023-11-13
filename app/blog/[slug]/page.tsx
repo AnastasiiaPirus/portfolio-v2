@@ -23,10 +23,10 @@ export async function generateMetadata(
         openGraph: {
             title: `${post.title} | Development with A.Pirus`,
             description: post.excerpt,
-            images: [{
-                url: post.coverImage,
-                alt: post.title
-            }]
+            // images: [{
+            //     url: post.coverImage,
+            //     alt: post.title
+            // }]
         }
     };
 }
@@ -40,6 +40,8 @@ export default async function Post({params}: Params) {
         'coverImage',
     ])
     // const title = `${post.title} | Development with A.Pirus`
+    // console.log(post, "post")
+    // console.log("test")
     const content = await markdownToHtml(post.content || '')
 
     return (
