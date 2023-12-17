@@ -26,7 +26,7 @@ function Article({
 
     return (
         <div className={`${size === 'lg' ? ' lg:w-2/3 ' : ' lg:w-1/3 '} w-full p-2 hover-scale `}>
-            <a href={link} rel="noopener noreferrer" target="_blank">
+            <a href={link}>
                 <div
                     className={`${position === 'left' ? ' lg:flex-row-reverse ' : position === 'right' ? ' lg:flex-row ' : position === 'top' ? ' flex-col ' : ' lg:flex-col-reverse '}bg-white rounded-lg flex flex-col  items-stretch border-md h-full `}>
                     <div

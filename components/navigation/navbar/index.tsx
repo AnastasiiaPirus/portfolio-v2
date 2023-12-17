@@ -13,7 +13,9 @@ const Navbar = ({
         <>
             <div className="sticky top-0 z-50 h-20 bg-[#FFFEFC]">
                 <div className="flex justify-between items-center container h-full">
-                    <Image src="/images/logo.png" width={84} height={45} alt="A.P."/>
+                    <Link href='/'>
+                        <Image src="/images/logo.png" width={84} height={45} alt="A.P."/>
+                    </Link>
                     <button
                         type="button"
                         className="inline-flex items-center md:hidden"
@@ -38,6 +40,8 @@ const Navbar = ({
                     >
                         <li><a href="/files/anastasiia-pirus-resume.pdf" target="_blank" rel="noopener noreferrer">
                             <p className="lg-button-text px-10 ">Download CV</p></a></li>
+                        <li><a href="/blog">
+                            <p className="lg-button-text px-10 ">Blog</p></a></li>
                     </ul>
                     <Link href="https://calendar.app.google/V2xq2ief2Xrw8DDr6" rel="noopener noreferrer" target="_blank"
                           className="no-underline hidden md:block">

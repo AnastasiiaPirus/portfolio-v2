@@ -16,8 +16,9 @@ export default async function BlogPage() {
     return (
         <>
             <div className="container">
-                <div className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
-                    <h1 className="heading1 md:pr-8">Blog.</h1>
+                <div
+                    className="flex-col md:flex-row flex md:items-center md:justify-between mt-8 md:mt-12 mb-8 md:mb-12">
+                    <h1 className="heading1 md:pr-8 text-start ">Blog.</h1>
                     <p className="body1">Exploring the Technology, One Post at a Time </p>
                 </div>
                 {heroPost && (

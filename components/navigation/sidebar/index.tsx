@@ -48,6 +48,11 @@ const Sidebar = ({
                             </a>
                         </li>
                         <li>
+                            <a href="/blog">
+                                <p className="lg-button-text my-4">Blog</p>
+                            </a>
+                        </li>
+                        <li>
                             <Link href="https://calendar.app.google/V2xq2ief2Xrw8DDr6" rel="noopener noreferrer"
                                   target="_blank"
                                   className="no-underline">

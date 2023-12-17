@@ -160,8 +160,17 @@ body {
 }
 
 @media only screen and (max-width: 640px) {
+    .heading1 {
+        font-size: 52px;
+    }
+
     .heading2 {
         font-size: 40px;
+        white-space: normal;
+    }
+
+    .heading2 {
+        font-size: 30px;
         white-space: normal;
     }
 
