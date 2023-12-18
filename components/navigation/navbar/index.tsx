@@ -39,9 +39,9 @@ const Navbar = ({
                         id="navbar-default"
                     >
                         <li><a href="/files/anastasiia-pirus-resume.pdf" target="_blank" rel="noopener noreferrer">
-                            <p className="lg-button-text px-10 ">Download CV</p></a></li>
+                            <p className="lg-button-text pe-5 ">Download CV</p></a></li>
                         <li><a href="/blog">
-                            <p className="lg-button-text px-10 ">Blog</p></a></li>
+                            <p className="lg-button-text pe-5 ">Blog</p></a></li>
                     </ul>
                     <Link href="https://calendar.app.google/V2xq2ief2Xrw8DDr6" rel="noopener noreferrer" target="_blank"
                           className="no-underline hidden md:block">

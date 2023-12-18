@@ -5,6 +5,7 @@ import './globals.css'
 import Navigation from "@/components/navigation";
 import Divider from "@/components/divider";
 import ContactSection from "@/components/contact-section";
+import {Analytics} from '@vercel/analytics/react';
 
 
 export const metadata: Metadata = {
@@ -31,6 +32,7 @@ export default function RootLayout({
             <Divider title="Contact Me"/>
             <ContactSection/>
         </div>
+        <Analytics/>
         </body>
         </html>
     )
