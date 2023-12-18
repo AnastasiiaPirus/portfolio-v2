@@ -23,11 +23,9 @@ export async function generateMetadata(
         openGraph: {
             title: `${post.title} | Development with A.Pirus`,
             description: post.excerpt,
-            // images: [{
-            //     url: post.coverImage,
-            //     alt: post.title
-            // }]
-        }
+            images: [post.coverImage]
+        },
+        images: [post.coverImage]
     };
 }
 
@@ -39,9 +37,7 @@ export default async function Post({params}: Params) {
         'content',
         'coverImage',
     ])
-    // const title = `${post.title} | Development with A.Pirus`
-    // console.log(post, "post")
-    // console.log("test")
+
     const content = await markdownToHtml(post.content || '')
 
     return (
@@ -63,18 +59,3 @@ type Params = {
         slug: string
     }
 }
-
-// export async function getStaticPaths() {
-//     const posts = getAllPosts(['slug'])
-//
-//     return {
-//         paths: posts.map((post) => {
-//             return {
-//                 params: {
-//                     slug: post.slug,
-//                 },
-//             }
-//         }),
-//         fallback: false,
-//     }
-// }
