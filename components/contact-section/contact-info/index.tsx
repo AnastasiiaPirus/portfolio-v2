@@ -1,10 +1,16 @@
+'use client'
 import Map from "@/components/svg/Map";
 import Email from "@/components/svg/Email";
 import GitHub from "@/components/svg/GitHub";
 import LinkedIn from "@/components/svg/LinkedIn";
+import mailgo from "mailgo";
+import {useEffect} from "react";
+
 
 function ContactInfo() {
-
+    useEffect(() => {
+        mailgo();
+    }, []);
     return (
         <div className="w-full flex flex-col justify-around">
             <div className="flex flex-row gap-4 md:gap-8 items-center">

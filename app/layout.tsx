@@ -11,6 +11,7 @@ import {Analytics} from '@vercel/analytics/react';
 export const metadata: Metadata = {
     title: 'Anastasiia Pirus - Portfolio of web developer',
     description: 'Anastasiia Pirus. Web developer in Canada.',
+    metadataBase: new URL("https://www.pirus.dev"),
     openGraph: {
         title: 'Anastasiia Pirus - Portfolio of web developer',
         description: 'Anastasiia Pirus. Web developer in Canada.',
