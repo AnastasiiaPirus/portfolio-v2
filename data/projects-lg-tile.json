@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "title": "FormKiQ",
+      "description": "Document Management Platform. \n \n Utilized React, Typescript, Redux, Tailwind, and other technologies to implement new functionalities, such as enabling the creation of archives and displaying user activities. Engineered an intuitive front-end interface for interactive drag-and-drop workflows utilizing the React Flow library.",
+      "color": "#ff9d58",
+      "img": "FormKiQ",
+      "links": [
+        {
+          "name": "FormKiQ",
+          "url": "https://formkiq.com"
+        }
+      ]
+    },
+    {
       "title": "Royal Path",
       "description": "React Native game with tinder-swipe mechanics. \n \n As a monarch, navigate advisors, villagers, allies, and foes! Choose to battle or befriend mystical creatures. Strengthen your army or pursue diplomacy. Shape your kingdom's destiny!",
       "color": "#88c2df",
@@ -41,22 +53,6 @@
         {
           "name": "Demo",
           "url": "https://youtu.be/5miYYUGP3cc"
-        }
-      ]
-    },
-    {
-      "title": "SpaceJourney",
-      "description": "React website inspired by AI. \n \n Design prototyped with the use of Midjourney. Charts and graphs added with use of Recharts library.",
-      "color": "#f0ae75",
-      "img": "SpaceJourney",
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/AnastasiiaPirus/Dashboard"
-        },
-        {
-          "name": "Visit Page",
-          "url": "https://anastasiiapirus.github.io/Dashboard/"
         }
       ]
     }

@@ -45,6 +45,22 @@
       ]
     },
     {
+      "title": "SpaceJourney",
+      "description": "React website inspired by AI. \n \n Design prototyped with the use of Midjourney. Charts and graphs added with use of Recharts library.",
+      "color": "#f0ae75",
+      "img": "SpaceJourney",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/AnastasiiaPirus/Dashboard"
+        },
+        {
+          "name": "Visit Page",
+          "url": "https://anastasiiapirus.github.io/Dashboard/"
+        }
+      ]
+    },
+    {
       "title": "Banking App",
       "description": "React app with styled components.",
       "color": "#a5ffb8",
