@@ -2,6 +2,18 @@ import MoreStories from '@/components/more-stories'
 import HeroPost from '@/components/hero-post'
 import {getAllPosts} from '@/lib/api'
 
+export const metadata = {
+    title: 'Blog | Development with A.Pirus',
+    description: 'Discover articles about web development and other topics.',
+    openGraph: {
+        title: 'Blog | Development with A.Pirus',
+        description: 'Discover articles about web development and other topics.',
+    },
+    alternates: {
+        canonical: `/blog`,
+    }
+}
+
 export default async function BlogPage() {
 
     const allPosts = await getAllPosts([
