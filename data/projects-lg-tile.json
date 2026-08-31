@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "title": "Envoy Builder (CreatorsAGI)",
+      "description": "Enterprise platform for building AI companions trained on your own knowledge. \n \n My current project. Built with Next.js 15, React 19, and Typescript. I work across the companion editor, RAG knowledge management, file upload flows, and versioned publishing in a multi-tenant app with WorkOS authentication.",
+      "color": "#7fd3de",
+      "img": "EnterpriseStudio",
+      "links": [
+        {
+          "name": "Visit Page",
+          "url": "https://studio.creatorsagi.com"
+        }
+      ]
+    },
+    {
       "title": "FormKiQ",
       "description": "Document Management Platform. \n \n Utilized React, Typescript, Redux, Tailwind, and other technologies to implement new functionalities, such as enabling the creation of archives and displaying user activities. Engineered an intuitive front-end interface for interactive drag-and-drop workflows utilizing the React Flow library.",
       "color": "#ff9d58",
@@ -33,26 +45,6 @@
         {
           "name": "Visit Page",
           "url": "https://voidverse-web-git-dev-anastasiiapirus.vercel.app"
-        }
-      ]
-    },
-    {
-      "title": "Timer App",
-      "description": "Gamified productivity timer. Build with Python (Flask), HTML5, CSS, Bootstrap, JS, and SQLite. User can choose a time, start, pause and stop the timer. Collect new animals on your field by reaching new milestones.",
-      "color": "#FFE9AF",
-      "img": "TimerApp",
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/AnastasiiaPirus/Timer-App"
-        },
-        {
-          "name": "Visit Page",
-          "url": "https://apirus.pythonanywhere.com/"
-        },
-        {
-          "name": "Demo",
-          "url": "https://youtu.be/5miYYUGP3cc"
         }
       ]
     }

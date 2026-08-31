@@ -42,14 +42,16 @@ export default function Home() {
                     </div>
                 ))}
             </div>
-            <div className="container grid md:grid-cols-2 lg:grid-cols-3  gap-4">
-                {projectsSm.map((project, index) => (
-                    <div key={`${index}, ${project.title}`} className="h-full">
-                        <ProjectSmTile title={project.title} description={project.description} color={project.color}
-                                       img={project.img} links={project.links}/>
-                    </div>
-                ))}
-            </div>
+            {projectsSm.length > 0 && (
+                <div className="container grid md:grid-cols-2 lg:grid-cols-3  gap-4">
+                    {projectsSm.map((project, index) => (
+                        <div key={`${index}, ${project.title}`} className="h-full">
+                            <ProjectSmTile title={project.title} description={project.description} color={project.color}
+                                           img={project.img} links={project.links}/>
+                        </div>
+                    ))}
+                </div>
+            )}
             <Divider title="Recent Articles"/>
             <div className="container">
                 <div className=" flex flex-col lg:flex-row flex-wrap w-full  ">
