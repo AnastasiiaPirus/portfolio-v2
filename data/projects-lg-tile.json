@@ -13,6 +13,18 @@
       ]
     },
     {
+      "title": "Conscious",
+      "description": "Chrome extension for mindful shopping. \n \n A gentle prompt appears while you shop on Amazon, asking whether the purchase is really necessary, and a private dashboard tracks what you saved by walking away. Shopping data never leaves the browser. Landing page built with Next.js.",
+      "color": "#FFE9AF",
+      "img": "Conscious",
+      "links": [
+        {
+          "name": "Visit Page",
+          "url": "https://www.getconscious.online/"
+        }
+      ]
+    },
+    {
       "title": "FormKiQ",
       "description": "Document Management Platform. \n \n Utilized React, Typescript, Redux, Tailwind, and other technologies to implement new functionalities, such as enabling the creation of archives and displaying user activities. Engineered an intuitive front-end interface for interactive drag-and-drop workflows utilizing the React Flow library.",
       "color": "#ff9d58",
