@@ -93,7 +93,7 @@ export default function AboutPage() {
                                 the interface, multi-tenant platforms — and weaving AI through the work itself.
                             </p>
                             <p className="body2 mt-4">
-                                Based in Toronto, working remotely with a US team. Open to senior frontend roles.{' '}
+                                Based in Toronto. Open to senior frontend roles.{' '}
                                 <a className="underline" href="mailto:a.pirus2000@gmail.com">Email me</a>{' '}or{' '}
                                 <a className="underline" href="https://calendar.app.google/V2xq2ief2Xrw8DDr6"
                                    target="_blank" rel="noopener noreferrer">book a call</a>.
