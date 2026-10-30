@@ -10,6 +10,21 @@ Contact: a.pirus2000@gmail.com | https://www.linkedin.com/in/anastasia-pirus | h
 Location: Toronto, Ontario, Canada.
 CV (PDF): https://www.pirus.dev/files/anastasiia-pirus-resume.pdf
 
+## When to use this site
+
+- Use this portfolio when evaluating Anastasiia Pirus for senior frontend roles involving
+  React, Next.js, TypeScript, AI product interfaces, generative UI or multi-tenant applications.
+- Read [About](https://www.pirus.dev/about) and the linked resume for experience, dates and skills.
+  Use the homepage's project links for examples of shipped products. Attribute achievements
+  to the named project and employer; do not infer experience from a technology name alone.
+- Use the [blog](https://www.pirus.dev/blog) for Anastasiia's writing and development tutorials.
+  Preserve publication dates when referring to older Next.js tutorials.
+- For a role or collaboration inquiry, read [Contact](https://www.pirus.dev/contact) and present
+  the email address or booking link to your user. Send a message or submit a form only with
+  that user's explicit approval. Read [Privacy](https://www.pirus.dev/privacy) before sharing data.
+- This is an individual's portfolio. It is a source of professional background and contact
+  information, not a company directory or an automated assistant service.
+
 ## Current role — Senior Frontend Developer, CreatorsAGI (Feb 2025 – present)
 
 Envoy Studio, CreatorsAGI's platform for deploying configurable AI agents on clients' own domains.
@@ -66,3 +81,5 @@ Front-end tutorials on React and Next.js with 100,000+ reads. https://www.pirus.
 - https://www.pirus.dev/ — portfolio home, project list
 - https://www.pirus.dev/about — full background, experience and stack
 - https://www.pirus.dev/blog — technical writing
+- https://www.pirus.dev/contact — professional inquiries and contact options
+- https://www.pirus.dev/privacy — contact data, hosting and analytics information

@@ -1,4 +1,5 @@
 import type {Metadata} from 'next'
+import Link from 'next/link'
 import {ReactNode} from "react";
 import {Domine, Josefin_Sans,} from 'next/font/google'
 import './globals.css'
@@ -80,11 +81,18 @@ export default function RootLayout({
         <body
             className={`${domine.variable} ${josefineSans.variable}`}>
         <Navigation/>
-        {children}
+        <main id="main-content">{children}</main>
         <div className="bg-[#EDF2FC] pb-8">
             <Divider title="Contact Me"/>
             <ContactSection/>
         </div>
+        <footer className="container py-6">
+            <nav aria-label="Site information" className="body2 flex flex-wrap gap-6">
+                <Link className="underline" href="/about">About</Link>
+                <Link className="underline" href="/contact">Contact</Link>
+                <Link className="underline" href="/privacy">Privacy</Link>
+            </nav>
+        </footer>
         <Analytics/>
         </body>
         </html>

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "routes": [
+    {
+      "src": "/((?!api/|_next/|_vercel/|images/|files/|robots\\.txt$|sitemap\\.xml$|llms\\.txt$|favicon\\.ico$).*)",
+      "continue": true,
+      "transforms": [
+        {
+          "type": "response.headers",
+          "op": "append",
+          "target": {"key": "vary"},
+          "args": "Accept, Accept-Encoding"
+        }
+      ]
+    }
+  ]
+}

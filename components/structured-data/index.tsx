@@ -15,11 +15,18 @@ const person = {
     url: SITE_URL,
     image: `${SITE_URL}/images/headshot-grey.png`,
     email: 'mailto:a.pirus2000@gmail.com',
+    contactPoint: {
+        '@type': 'ContactPoint',
+        contactType: 'Job opportunities and professional inquiries',
+        email: 'a.pirus2000@gmail.com',
+        url: `${SITE_URL}/contact`,
+        availableLanguage: ['English', 'Ukrainian'],
+    },
     jobTitle: 'Senior Frontend Engineer',
     description:
         'Senior frontend engineer in Toronto building AI-first products — generative UI, streaming AI ' +
-        'responses to the interface, multi-tenant platform architecture and Stripe billing systems in React and Next.js. ' +
-        'Four years shipping React and React Native to production. Former financial statement auditor at KPMG.',
+        'responses to the interface and multi-tenant platforms in React and Next.js. ' +
+        'Over four years shipping React and React Native to production. Former financial statement auditor at KPMG and Baker Tilly.',
     worksFor: {
         '@type': 'Organization',
         name: 'CreatorsAGI',
@@ -42,6 +49,7 @@ const person = {
     sameAs: [
         'https://www.linkedin.com/in/anastasia-pirus',
         'https://github.com/AnastasiiaPirus',
+        'https://medium.com/@a.pirus',
         'https://www.upwork.com/freelancers/~01babc62492315e639',
         'https://play.google.com/store/apps/details?id=com.royalpath.voidverse',
     ],

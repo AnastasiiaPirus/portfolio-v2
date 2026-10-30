@@ -19,6 +19,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'monthly',
             priority: 0.9,
         },
+        ...['contact', 'privacy'].map((slug) => ({
+            url: `${BASE_URL}/${slug}`,
+            changeFrequency: 'yearly' as const,
+            priority: 0.5,
+        })),
         {
             url: `${BASE_URL}/blog`,
             lastModified: posts[0]?.date ? new Date(posts[0].date) : new Date(),
