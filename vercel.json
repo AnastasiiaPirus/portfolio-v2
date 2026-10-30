@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "routes": [
     {
-      "src": "/((?!api/|_next/|_vercel/|images/|files/|robots\\.txt$|sitemap\\.xml$|llms\\.txt$|favicon\\.ico$).*)",
+      "src": "/((?!api/|_next/|_vercel/|images/|files/|\\.well-known(?:/|$)|robots\\.txt$|sitemap\\.xml$|llms\\.txt$|favicon\\.ico$).*)",
       "continue": true,
       "transforms": [
         {

@@ -6,7 +6,10 @@ Pages serve HTML to browsers and Markdown to clients requesting `Accept: text/ma
 The negotiator honors media-type specificity, quality values, and explicit rejections;
 unsupported representations receive HTTP 406. Missing pages return HTTP 404 with recovery
 links in both representations. Downloads, images, machine-readable files, API requests,
-and Next.js client navigation retain their normal handling.
+and Next.js client navigation retain their normal handling. `/.well-known/` resources also
+bypass page negotiation, so absent discovery endpoints return 404 even for JSON requests.
+HTML and Markdown page responses advertise the existing reading guide, author page and
+privacy page through RFC 8288 `Link` headers.
 
 Build and start the production server before running the endpoint tests:
 

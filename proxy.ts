@@ -2,11 +2,15 @@ import {NextRequest, NextResponse} from 'next/server'
 import {preferredRepresentation} from '@/lib/accept'
 
 const machineFiles = new Set(['/robots.txt', '/sitemap.xml', '/llms.txt', '/favicon.ico'])
+const discoveryLinks = '</llms.txt>; rel="describedby"; type="text/plain", ' +
+    '</about>; rel="author"; type="text/html", ' +
+    '</privacy>; rel="privacy-policy"; type="text/html"'
 
 export function proxy(request: NextRequest) {
     const path = request.nextUrl.pathname
     if (!['GET', 'HEAD'].includes(request.method) || machineFiles.has(path) ||
         path.startsWith('/images/') || path.startsWith('/files/') ||
+        path === '/.well-known' || path.startsWith('/.well-known/') ||
         request.headers.get('rsc') === '1') {
         return NextResponse.next()
     }
@@ -28,6 +32,7 @@ export function proxy(request: NextRequest) {
         })()
         : NextResponse.next()
 
+    response.headers.append('Link', discoveryLinks)
     response.headers.append('Vary', 'Accept, Accept-Encoding')
     return response
 }
