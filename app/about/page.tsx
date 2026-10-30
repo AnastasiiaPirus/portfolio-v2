@@ -7,19 +7,18 @@ export const metadata: Metadata = {
     title: 'About Anastasiia Pirus — Senior Frontend Engineer, AI Products',
     description:
         'Senior frontend engineer in Toronto building AI-first products: generative UI, streaming AI responses to UI, ' +
-        'multi-tenant platforms, Stripe billing. Four years shipping React and React Native to production. ' +
+        'multi-tenant platforms. Over four years shipping React and React Native to production. ' +
         'Former KPMG financial statement auditor.',
     alternates: {canonical: '/about'},
 }
 
-// Everything below is transcribed from /public/files/anastasiia-pirus-resume.pdf
-// (Anastasiia_Pirus_Resume_Frontend, August 2026). Keep the two in sync.
+// Keep the profile, skills and experience in sync with /public/files/anastasiia-pirus-resume.pdf.
 const stack = [
     {
         group: 'AI / LLM',
         items: [
             'LLM integration', 'Prompt engineering', 'Agent tool calling',
-            'Streaming AI responses to UI', 'Generative UI', 'Google Gemini / Vertex AI',
+            'Agent-to-UI (A2UI) streaming', 'Google Gemini / Vertex AI',
             'AI-assisted development (Claude Code, Cursor)',
         ],
     },
@@ -28,25 +27,28 @@ const stack = [
         items: ['React', 'Next.js', 'React Native', 'TypeScript', 'Tailwind CSS', 'shadcn/ui', 'MUI', 'Design systems'],
     },
     {
+        group: 'Languages',
+        items: ['TypeScript', 'JavaScript', 'SQL', 'Python', 'HTML', 'CSS'],
+    },
+    {
         group: 'Backend & data',
-        items: ['Node.js', 'PostgreSQL', 'Supabase', 'GraphQL', 'REST APIs', 'Stripe (subscriptions & webhooks)', 'WorkOS AuthKit', 'Python', 'SQL'],
+        items: ['Node.js', 'GraphQL', 'REST APIs', 'PostgreSQL', 'Supabase', 'Stripe (subscriptions & webhooks)', 'WorkOS AuthKit', 'Google Cloud (GCP)'],
     },
     {
         group: 'Platform & practices',
-        items: ['Multi-tenant architecture', 'Vercel', 'Sentry', 'Playwright', 'CI/CD', 'Feature flags', 'Core Web Vitals', 'End-to-end testing'],
+        items: ['Git', 'Vercel', 'Sentry', 'Playwright', 'CI/CD', 'Feature flags', 'Core Web Vitals', 'End-to-end testing', 'Multi-tenant architecture'],
     },
 ]
 
 const experience = [
     {
         role: 'Senior Frontend Developer',
-        org: 'CreatorsAGI · Bellevue, WA (remote from Toronto)',
+        org: 'CreatorsAGI · Bellevue, WA, USA',
         period: 'Feb 2025 — present',
         points: [
             'On Envoy Studio — CreatorsAGI’s platform for deploying configurable AI agents on clients’ own domains — architected the multi-tenant foundation: per-tenant authentication and onboarding with WorkOS AuthKit, tenant isolation, and dynamic subdomain and custom-domain routing in Next.js, plus a reusable component SDK and design system teams use to compose client-specific experiences.',
-            'Built the generative-UI system at the core of the product: structured AI outputs become modular React components, streamed live to client sites over SSE.',
+            'Built the generative-UI system at the core of the product: structured AI outputs become modular React components, streamed live to client sites over SSE via an agent-to-UI (A2UI) layer.',
             'Shipped M’adrono (ai.talmido.org) end to end, prototype to production — an AI lesson-planning assistant live since September 2025, with 25,000+ queries from roughly 850 monthly active users.',
-            'Built the monetization layer: a Stripe subscription and usage-based credit system on Next.js and Supabase, with webhook-driven sync, credit ledgers, feature gating and a self-serve billing portal.',
             'Drove platform performance and Core Web Vitals — cut LCP by about 97% (~6.5s to under 200ms) across 25+ pages, and reduced response latency by about 40%.',
         ],
     },
@@ -55,7 +57,8 @@ const experience = [
         org: 'Toronto, Canada',
         period: 'Apr 2022 — Feb 2025',
         points: [
-            'Built the front end for FormKiQ, an AWS-partnered document platform handling 50M+ documents.',
+            'Built the TypeScript/React front end for FormKiQ, an AWS-partnered document platform handling 50M+ documents — REST API integration and file upload/download via S3 presigned URLs.',
+            'Built admin dashboards for mobile game operators, covering analytics plus tools to manage games, schedule live in-game events and configure in-game currencies.',
             'Built and shipped a React Native app end to end — gesture-based swipe interactions, animation and local state — released on the Google Play Store.',
         ],
     },
@@ -81,16 +84,15 @@ export default function AboutPage() {
                                 Senior frontend engineer, building AI-first products.
                             </p>
                             <p className="body2 mt-6">
-                                Frontend developer focused on how people engage with a product, and on the
-                                business goals behind it. Came into engineering from financial audit at KPMG,
-                                so the customer and the business come first — and regulated, money-handling
-                                products are familiar ground.
+                                Front-end developer focused on how people engage with a product, and on the
+                                business goals behind it. I came into engineering from financial audit at KPMG,
+                                so I think about the customer and the business first and I’m comfortable in
+                                regulated, money-handling products.
                             </p>
                             <p className="body2 mt-4">
-                                Over four years, shipped React and React Native applications to production end
-                                to end, closing the gap between business needs and technical architecture.
-                                Lately that means AI-first products: generative UI, streaming AI responses to
-                                the interface, multi-tenant platforms — and weaving AI through the work itself.
+                                Over four years I’ve shipped React and React Native apps to production end to
+                                end, closing the gap between business needs and technical architecture.
+                                Lately building AI-first products and weaving AI through my own work processes.
                             </p>
                             <p className="body2 mt-4">
                                 Based in Toronto. Open to senior frontend roles.{' '}
