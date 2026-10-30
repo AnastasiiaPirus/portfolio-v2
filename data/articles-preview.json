@@ -1,24 +1,24 @@
 {
   "articles": [
     {
-      "title": "The Ultimate Arsenal of Tools for Work and Study of Front-End Developer",
+      "title": "How I stopped my doomscrolling forever",
       "color": "#B5C8AD",
-      "img": "1.png",
-      "link": "blog/tools-for-work",
+      "img": "how-i-stopped-my-doomscrolling-forever.jpg",
+      "link": "/blog/how-i-stopped-my-doomscrolling-forever",
       "position": "right"
     },
     {
-      "title": "Custom Loading and 404 Pages in Next.js 13 Tutorial",
+      "title": "Let’s reverse our brain rot.",
       "color": "#FDE0EE",
-      "img": "2.png",
-      "link": "blog/loading-and-404-pages",
+      "img": "lets-reverse-our-brain-rot.png",
+      "link": "/blog/lets-reverse-our-brain-rot",
       "position": "top"
     },
     {
-      "title": "How to create a responsive Navigation bar in Next.js 13",
+      "title": "I want to buy so many things",
       "color": "#66C79A",
-      "img": "3.jpg",
-      "link": "blog/next-navigation-bar",
+      "img": "i-want-to-buy-so-many-things.jpg",
+      "link": "/blog/i-want-to-buy-so-many-things",
       "position": "bottom"
     },
     {
