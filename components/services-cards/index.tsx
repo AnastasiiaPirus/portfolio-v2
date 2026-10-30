@@ -12,33 +12,33 @@ function ServicesCards() {
     const initialSlides = [
         {
             id: 1,
-            text: "Creating custom websites",
+            text: "Building AI-first products",
             display: "block",
-            icon: <Url/>
+            icon: <Developing/>
         },
         {
             id: 2,
-            text: "Making mobile games",
+            text: "Shipping React & Next.js apps",
             display: "none",
-            icon: <Mobile/>
+            icon: <Url/>
         },
         {
             id: 3,
-            text: "Writing article and tutorials",
-            display: "none",
-            icon: <Writing/>
-        },
-        {
-            id: 4,
-            text: "Freelancing on Upwork",
+            text: "Taking products from idea to launch",
             display: "none",
             icon: <Freelancing/>
         },
         {
-            id: 5,
-            text: "Developing web-apps",
+            id: 4,
+            text: "Turning complex data into clear UI",
             display: "none",
-            icon: <Developing/>
+            icon: <Mobile/>
+        },
+        {
+            id: 5,
+            text: "Making the web fast",
+            display: "none",
+            icon: <Writing/>
         }
     ]
     const [slides, setSlides] = useState(initialSlides)

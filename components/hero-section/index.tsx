@@ -5,13 +5,18 @@ function HeroSection() {
 
     return (
         <>
-            <div className="w-full bg-[#FFFEFC]">
+            <div className="w-full bg-[#FFFEFC] overflow-x-hidden">
                 <div className="container pt-16 pb-10">
-                    <div className="flex flex-col md:flex-row md:h-[500px] gap-8">
-                        <div className="w-full md:w-1/2 flex flex-col justify-between h-full">
+                    <div className="flex flex-col md:flex-row md:min-h-[500px] gap-8">
+                        <div className="w-full md:w-1/2 flex flex-col justify-between gap-6">
                             <div>
                                 <h1 className="heading1">Anastasiia Pirus</h1>
-                                <p className="body1">I’m a web developer.</p>
+                                <p className="body1">Senior frontend engineer. AI-first products.</p>
+                                <p className="body2 mt-2">
+                                    Toronto-based. Building generative UI, streaming AI responses to the
+                                    interface, and multi-tenant platforms in React and Next.js.{' '}
+                                    <a href="/about" className="underline">More about me</a>.
+                                </p>
                             </div>
                             <ServicesCards/>
                         </div>

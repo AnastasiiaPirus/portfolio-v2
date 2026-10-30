@@ -48,6 +48,11 @@ const Sidebar = ({
                             </a>
                         </li>
                         <li>
+                            <a href="/about">
+                                <p className="lg-button-text my-4">About</p>
+                            </a>
+                        </li>
+                        <li>
                             <a href="/blog">
                                 <p className="lg-button-text my-4">Blog</p>
                             </a>

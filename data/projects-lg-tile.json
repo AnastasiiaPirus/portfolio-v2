@@ -1,14 +1,26 @@
 {
   "projects": [
     {
-      "title": "Envoy Builder (CreatorsAGI)",
-      "description": "Enterprise platform for building AI companions trained on your own knowledge. \n \n My current project. Built with Next.js 15, React 19, and Typescript. I work across the companion editor, RAG knowledge management, file upload flows, and versioned publishing in a multi-tenant app with WorkOS authentication.",
+      "title": "Envoy Studio (CreatorsAGI)",
+      "description": "Platform for deploying configurable AI agents on clients' own domains. \n \n Architected the multi-tenant foundation — per-tenant auth and onboarding with WorkOS AuthKit, tenant isolation, and dynamic subdomain and custom-domain routing in Next.js — plus a reusable component SDK teams use to compose client-specific experiences. At the core is a generative-UI system: structured AI outputs become modular React components, streamed live to client sites over SSE. Also built the Stripe subscription and usage-based credit system behind it, and cut LCP by ~97% across 25+ pages.",
       "color": "#7fd3de",
       "img": "EnterpriseStudio",
       "links": [
         {
           "name": "Visit Page",
           "url": "https://studio.creatorsagi.com"
+        }
+      ]
+    },
+    {
+      "title": "FormKiQ",
+      "description": "AWS-partnered document platform handling 50M+ documents. \n \n Built the front end in React, TypeScript, Redux and Tailwind — archive creation, user activity views, and an interactive drag-and-drop workflow builder using React Flow.",
+      "color": "#ff9d58",
+      "img": "FormKiQ",
+      "links": [
+        {
+          "name": "FormKiQ",
+          "url": "https://formkiq.com"
         }
       ]
     },
@@ -25,38 +37,14 @@
       ]
     },
     {
-      "title": "FormKiQ",
-      "description": "Document Management Platform. \n \n Utilized React, Typescript, Redux, Tailwind, and other technologies to implement new functionalities, such as enabling the creation of archives and displaying user activities. Engineered an intuitive front-end interface for interactive drag-and-drop workflows utilizing the React Flow library.",
-      "color": "#ff9d58",
-      "img": "FormKiQ",
-      "links": [
-        {
-          "name": "FormKiQ",
-          "url": "https://formkiq.com"
-        }
-      ]
-    },
-    {
       "title": "Royal Path",
-      "description": "React Native game with tinder-swipe mechanics. \n \n As a monarch, navigate advisors, villagers, allies, and foes! Choose to battle or befriend mystical creatures. Strengthen your army or pursue diplomacy. Shape your kingdom's destiny!",
+      "description": "React Native game with swipe mechanics, shipped to the Play Store. \n \n Built end to end — gesture-based swipe interactions, animation and local state. As a monarch, navigate advisors, villagers, allies and foes, and shape your kingdom's destiny.",
       "color": "#88c2df",
       "img": "RoyalPath",
       "links": [
         {
           "name": "Play Market",
           "url": "https://play.google.com/store/apps/details?id=com.royalpath.voidverse"
-        }
-      ]
-    },
-    {
-      "title": "Voidverse Studios",
-      "description": "Game Development Studio landing page. \n \n Build with Next.js 13 to optimize content loading, improve SEO with server-side rendering. Animations done with Framer Motion.",
-      "color": "#98ecc0",
-      "img": "Voidverse",
-      "links": [
-        {
-          "name": "Visit Page",
-          "url": "https://voidverse-web-git-dev-anastasiiapirus.vercel.app"
         }
       ]
     }

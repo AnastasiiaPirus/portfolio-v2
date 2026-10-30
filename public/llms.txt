@@ -1,0 +1,68 @@
+# Anastasiia Pirus
+
+> Senior frontend engineer in Toronto, Canada, building AI-first products: generative UI,
+> streaming AI responses to the interface, multi-tenant platform architecture, and Stripe billing
+> systems in React and Next.js. Four years shipping React and React Native to production
+> end to end. Came into engineering from four years of financial audit at KPMG, so
+> comfortable in regulated, money-handling products. Open to senior frontend roles.
+
+Contact: a.pirus2000@gmail.com | https://www.linkedin.com/in/anastasia-pirus | https://github.com/AnastasiiaPirus
+Location: Toronto, Ontario, Canada. Currently remote with a US-based team.
+CV (PDF): https://www.pirus.dev/files/anastasiia-pirus-resume.pdf
+
+## Current role — Senior Frontend Developer, CreatorsAGI (Feb 2025 – present)
+
+Envoy Studio, CreatorsAGI's platform for deploying configurable AI agents on clients' own domains.
+
+- Architected the multi-tenant foundation: per-tenant authentication and onboarding with
+  WorkOS AuthKit, tenant isolation, dynamic subdomain and custom-domain routing in Next.js,
+  plus a reusable component SDK and design system for composing client-specific experiences.
+- Built the generative-UI system at the core of the product: structured AI outputs become
+  modular React components, streamed live to client sites over SSE.
+- Shipped M'adrono (https://ai.talmido.org) end to end, prototype to production — an AI
+  lesson-planning assistant live since September 2025, 25,000+ queries, ~850 monthly active users.
+- Built the monetization layer: Stripe subscriptions and a usage-based credit system on
+  Next.js and Supabase, with webhook-driven sync, credit ledgers, feature gating and a
+  self-serve billing portal.
+- Performance: cut LCP ~97% (~6.5s to under 200ms) across 25+ pages,
+  and reduced response latency ~40%.
+
+## Contract Software Developer — Independent (Apr 2022 – Feb 2025)
+
+- FormKiQ (https://formkiq.com) — front end for an AWS-partnered document platform handling
+  50M+ documents. React, TypeScript, Redux, Tailwind, React Flow drag-and-drop workflows.
+- Royal Path — React Native app built and shipped end to end with gesture-based swipe
+  interactions, animation and local state.
+  https://play.google.com/store/apps/details?id=com.royalpath.voidverse
+- Conscious (https://www.getconscious.online/) — Chrome extension that interrupts impulse
+  purchases on Amazon and tracks money saved by walking away. Shopping data stays in the browser.
+
+## Financial Statement Auditor — KPMG Canada, Baker Tilly Ukraine (Dec 2018 – Aug 2022)
+
+Worked daily with sensitive client and financial data — the compliance, identity and risk
+context that customer onboarding and verification flows are built on.
+
+## Skills
+
+AI / LLM: LLM integration, prompt engineering, agent tool calling, streaming AI responses to UI, generative UI, Google Gemini / Vertex AI, AI-assisted development (Claude Code, Cursor).
+Frontend: React, Next.js, React Native, TypeScript, JavaScript, Tailwind CSS, shadcn/ui, MUI, design systems.
+Backend & data: Node.js, PostgreSQL, Supabase, GraphQL, REST APIs, Stripe (subscriptions
+and webhooks), WorkOS AuthKit, Python, SQL.
+Platform & practices: multi-tenant architecture, Vercel, Sentry, Playwright, CI/CD,
+feature flags, Core Web Vitals, end-to-end testing.
+
+## Education
+
+- M.S. Accounting & Taxation, Odesa National Economic University.
+- Meta Front-End Developer Professional Certificate.
+- CS50, Harvard University.
+
+## Writing
+
+Front-end tutorials on React and Next.js with 100,000+ reads. https://www.pirus.dev/blog
+
+## Pages
+
+- https://www.pirus.dev/ — portfolio home, project list
+- https://www.pirus.dev/about — full background, experience and stack
+- https://www.pirus.dev/blog — technical writing
