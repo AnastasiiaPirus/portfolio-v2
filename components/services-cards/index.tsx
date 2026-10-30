@@ -49,12 +49,6 @@ function ServicesCards() {
     //     showSlides();
     // }, []);
 
-    //update slide every 3 seconds
-    useEffect(() => {
-        setTimeout(showSlides, 3000);
-    }, [slideIndex])
-
-
     function showSlides() {
         // console.log("call showSlides")
         for (let i = 0; i < slides.length; i++) {
@@ -72,6 +66,10 @@ function ServicesCards() {
             setSlideIndex(newSlideIndex)
         }
     }
+
+    useEffect(() => {
+        setTimeout(showSlides, 3000);
+    }, [slideIndex])
 
 
     return (

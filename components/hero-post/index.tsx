@@ -30,8 +30,7 @@ const HeroPost = ({
                 <div>
                     <h2 className="mb-4 heading2">
                         <Link
-                            as={`/blog/${slug}`}
-                            href="/blog/[slug]"
+                            href={`/blog/${slug}`}
                             className="hover:underline"
                         >
                             {title}

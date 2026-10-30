@@ -40,10 +40,10 @@ const Navbar = ({
                     >
                         <li><a href="/files/anastasiia-pirus-resume.pdf" target="_blank" rel="noopener noreferrer">
                             <p className="lg-button-text pe-5 ">Download CV</p></a></li>
-                        <li><a href="/about">
-                            <p className="lg-button-text pe-5 ">About</p></a></li>
-                        <li><a href="/blog">
-                            <p className="lg-button-text pe-5 ">Blog</p></a></li>
+                        <li><Link href="/about">
+                            <p className="lg-button-text pe-5 ">About</p></Link></li>
+                        <li><Link href="/blog">
+                            <p className="lg-button-text pe-5 ">Blog</p></Link></li>
                     </ul>
                     <Link href="https://calendar.app.google/V2xq2ief2Xrw8DDr6" rel="noopener noreferrer" target="_blank"
                           className="no-underline hidden md:block">

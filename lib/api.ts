@@ -5,6 +5,11 @@ import Post from "@/interfaces/post";
 
 const postsDirectory = join(process.cwd(), '_posts')
 
+export function hasPost(slug: string) {
+    return /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug) &&
+        fs.existsSync(join(postsDirectory, `${slug}.md`))
+}
+
 export function getPostSlugs() {
     return fs.readdirSync(postsDirectory)
 }

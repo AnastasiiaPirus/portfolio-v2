@@ -1,17 +1,18 @@
 import PostBody from '@/components/post-body'
-import {getPostBySlug} from '@/lib/api'
+import {getPostBySlug, hasPost} from '@/lib/api'
 import type {Metadata} from 'next'
+import {notFound} from 'next/navigation'
 import markdownToHtml from '@/lib/markdownToHtml'
 import PostHeader from '@/components/post-header'
 import {PERSON_ID, SITE_URL} from '@/components/structured-data'
 
 type Props = {
-    params: { slug: string; }
+    params: Promise<{ slug: string; }>
 }
 
-export async function generateMetadata(
-    {params}: Props
-): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+    const params = await props.params;
+    if (!hasPost(params.slug)) notFound()
     const post = getPostBySlug(params.slug, [
         'title',
         'coverImage',
@@ -32,7 +33,9 @@ export async function generateMetadata(
     };
 }
 
-export default async function Post({params}: Params) {
+export default async function Post(props: Params) {
+    const params = await props.params;
+    if (!hasPost(params.slug)) notFound()
     const post = getPostBySlug(params.slug, [
         'title',
         'date',
@@ -79,7 +82,7 @@ export default async function Post({params}: Params) {
 }
 
 type Params = {
-    params: {
+    params: Promise<{
         slug: string
-    }
+    }>
 }
