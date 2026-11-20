@@ -24,9 +24,9 @@ const person = {
     },
     jobTitle: 'Senior Frontend Engineer',
     description:
-        'Senior frontend engineer in Toronto building AI-first products — generative UI, streaming AI ' +
-        'responses to the interface and multi-tenant platforms in React and Next.js. ' +
-        'Over four years shipping React and React Native to production. Former financial statement auditor at KPMG and Baker Tilly.',
+        'Senior frontend engineer in Toronto with full-stack range, building AI products — real-time voice ' +
+        'interfaces, agent tooling, billing and analytics in Next.js and TypeScript. ' +
+        'Four years shipping React and React Native to production. Former financial statement auditor at Baker Tilly and KPMG.',
     worksFor: {
         '@type': 'Organization',
         name: 'CreatorsAGI',
@@ -36,7 +36,7 @@ const person = {
         '@type': 'Occupation',
         name: 'Senior Frontend Engineer',
         occupationLocation: {'@type': 'City', name: 'Toronto'},
-        skills: 'React, Next.js, TypeScript, generative UI, streaming AI responses to UI, LLM integration, agent tool calling, multi-tenant architecture, Stripe billing',
+        skills: 'React, Next.js, TypeScript, real-time voice AI interfaces, OpenAI Realtime API, MCP, Claude Agent SDK, LLM tool calling, Stripe billing, multi-tenant architecture',
     },
     address: {
         '@type': 'PostalAddress',
@@ -56,13 +56,13 @@ const person = {
     knowsAbout: [
         // AI first — this is the current positioning and the vocabulary job
         // descriptions in this space actually use.
-        'LLM integration', 'Prompt engineering', 'Agent tool calling',
-        'Streaming AI responses to UI', 'Generative UI', 'Google Gemini', 'Vertex AI',
-        'Server-Sent Events', 'AI-assisted development',
+        'OpenAI Realtime API', 'Claude Agent SDK', 'Model Context Protocol (MCP)',
+        'LLM tool calling', 'RAG', 'Prompt engineering', 'Google Gemini', 'Vertex AI',
+        'Server-Sent Events', 'Real-time voice interfaces',
         'React', 'Next.js', 'TypeScript', 'JavaScript', 'React Native',
         'Tailwind CSS', 'shadcn/ui', 'Design systems',
-        'Node.js', 'PostgreSQL', 'Supabase', 'GraphQL', 'REST APIs',
-        'Stripe subscriptions and webhooks', 'WorkOS AuthKit',
+        'Node.js', 'Python', 'FastAPI', 'PostgreSQL', 'Supabase', 'Firebase', 'REST APIs',
+        'Stripe billing', 'WorkOS', 'Sentry distributed tracing',
         'Multi-tenant SaaS architecture', 'Core Web Vitals', 'Playwright',
         'Financial statement audit',
     ],

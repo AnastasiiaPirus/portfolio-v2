@@ -7,9 +7,9 @@ import {experience, profileParagraphs, stack} from '@/data/profile'
 export const metadata: Metadata = {
     title: 'About Anastasiia Pirus — Senior Frontend Engineer, AI Products',
     description:
-        'Senior frontend engineer in Toronto building AI-first products: generative UI, streaming AI responses to UI, ' +
-        'multi-tenant platforms. Over four years shipping React and React Native to production. ' +
-        'Former KPMG financial statement auditor.',
+        'Senior frontend engineer in Toronto building AI products: real-time voice interfaces, agent tooling ' +
+        'and billing in Next.js and TypeScript. Four years shipping React and React Native to production. ' +
+        'Former financial statement auditor at Baker Tilly and KPMG.',
     alternates: {canonical: '/about'},
 }
 
@@ -58,6 +58,7 @@ export default function AboutPage() {
                         <p className="body2 mt-1" style={{fontWeight: 400}}>
                             {job.org} · <time>{job.period}</time>
                         </p>
+                        {'summary' in job && job.summary && <p className="body2 mt-3">{job.summary}</p>}
                         <ul className="mt-4 list-disc ps-6">
                             {job.points.map((point) => (
                                 <li key={point} className="body2 mt-2">{point}</li>

@@ -10,7 +10,7 @@ export const contactContent: TrustPageContent = {
     title: 'Contact Anastasiia Pirus',
     subtitle: 'Senior frontend engineer. Based in Toronto, Canada.',
     intro: [[
-        {text: 'I’m open to senior frontend roles, especially work on React, Next.js and AI-first products. My experience includes generative UI, streaming agent responses into interfaces, multi-tenant platforms and taking applications from prototype to production. You can read my '},
+        {text: 'I’m open to senior frontend roles, especially work on React, Next.js and AI-first products. My experience includes real-time voice AI interfaces, MCP tools for AI agents, self-serve Stripe billing and taking applications from design to production. You can read my '},
         {text: 'experience and skills', href: '/about'},
         {text: ' or download my '},
         {text: 'resume', href: '/files/anastasiia-pirus-resume.pdf'},

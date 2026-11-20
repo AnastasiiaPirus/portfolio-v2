@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "title": "Envoy Studio (CreatorsAGI)",
-      "description": "Platform for deploying configurable AI agents on clients' own domains. \n \n Architected the multi-tenant foundation — per-tenant auth and onboarding with WorkOS AuthKit, tenant isolation, and dynamic subdomain and custom-domain routing in Next.js — plus a reusable component SDK teams use to compose client-specific experiences. At the core is a generative-UI system: structured AI outputs become modular React components, streamed live to client sites over SSE. Also built the Stripe subscription and usage-based credit system behind it, and cut LCP by ~97% across 25+ pages.",
+      "title": "HyperLive (CreatorsAGI)",
+      "description": "White-labeled AI webinars and sales agents that companies run on their own domains. \n \n Built the AI webinar from scratch: an AI presenter narrates a company's slides in real time (OpenAI Realtime API), visitors raise a hand to ask questions by voice, with live captions throughout. In the admin Studio, wrote 10+ MCP tools so admins configure the agent in plain language, and shipped self-serve Stripe billing with prepaid credits and plan-based feature gating.",
       "color": "#7fd3de",
       "img": "EnterpriseStudio",
       "links": [

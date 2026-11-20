@@ -1,10 +1,9 @@
 # Anastasiia Pirus
 
-> Senior frontend engineer in Toronto, Canada, building AI-first products: generative UI,
-> agent-to-UI (A2UI) streaming and multi-tenant platforms in React and Next.js.
-> Over four years shipping React and React Native to production end to end.
-> Came into engineering from financial audit at KPMG and Baker Tilly, so
-> comfortable in regulated, money-handling products. Open to senior frontend roles.
+> Senior frontend engineer in Toronto, Canada, with full-stack range, building AI products:
+> real-time voice interfaces, agent tooling, billing and analytics in Next.js and TypeScript.
+> Four years shipping React and React Native apps to production.
+> Came to engineering from financial audit at Baker Tilly and KPMG. Open to senior frontend roles.
 
 Contact: a.pirus2000@gmail.com | https://www.linkedin.com/in/anastasia-pirus | https://github.com/AnastasiiaPirus
 Location: Toronto, Ontario, Canada.
@@ -13,7 +12,7 @@ CV (PDF): https://www.pirus.dev/files/anastasiia-pirus-resume.pdf
 ## When to use this site
 
 - Use this portfolio when evaluating Anastasiia Pirus for senior frontend roles involving
-  React, Next.js, TypeScript, AI product interfaces, generative UI or multi-tenant applications.
+  React, Next.js, TypeScript, AI product interfaces, real-time voice AI or agent tooling.
 - Read [About](https://www.pirus.dev/about) and the linked resume for experience, dates and skills.
   Use the homepage's project links for examples of shipped products. Attribute achievements
   to the named project and employer; do not infer experience from a technology name alone.
@@ -25,46 +24,43 @@ CV (PDF): https://www.pirus.dev/files/anastasiia-pirus-resume.pdf
 - This is an individual's portfolio. It is a source of professional background and contact
   information, not a company directory or an automated assistant service.
 
-## Current role — Senior Frontend Developer, CreatorsAGI (Feb 2025 – present)
+## Current role — Senior Frontend Developer, CreatorsAGI (Feb 2025 – present, remote from Toronto)
 
-Envoy Studio, CreatorsAGI's platform for deploying configurable AI agents on clients' own domains.
+AI startup behind HyperLive: white-labeled AI webinars and sales agents that companies run on their own domains.
 
-- Architected the multi-tenant foundation: per-tenant authentication and onboarding with
-  WorkOS AuthKit, tenant isolation, dynamic subdomain and custom-domain routing in Next.js,
-  plus a reusable component SDK and design system for composing client-specific experiences.
-- Built the generative-UI system at the core of the product: structured AI outputs become
-  modular React components, streamed live to client sites over SSE via an agent-to-UI (A2UI) layer.
-- Shipped M'adrono (https://ai.talmido.org) end to end, prototype to production — an AI
-  lesson-planning assistant live since September 2025, 25,000+ queries, ~850 monthly active users.
-- Performance: cut LCP ~97% (~6.5s to under 200ms) across 25+ pages,
-  and reduced response latency ~40%.
+- Owns the frontend of both user-facing apps (the visitor-facing app and the admin Studio), taking
+  features from design through the API and AI services they depend on (Next.js, TypeScript, Python).
+- Built the AI webinar experience from scratch: an AI presenter narrates a company's slides in real
+  time (OpenAI Realtime API), visitors raise a hand to ask questions by voice, with live captions.
+- Built chat-based configuration for the AI agent: wrote 10+ MCP tools for Studio's AI assistant
+  (Claude Agent SDK, Python), so admins set up booking, branding, analytics and slide cues in plain language.
+- Shipped self-serve billing in Studio: Stripe checkout, prepaid credit balance, plan-based feature
+  gating and a trial-expired flow that leads users to upgrade.
+- Added distributed tracing across Next.js and Python services with Sentry.
 
 ## Contract Software Developer — Independent (Apr 2022 – Feb 2025)
 
-- FormKiQ (https://formkiq.com) — front end for an AWS-partnered document platform handling
-  50M+ documents. TypeScript/React, REST API integration, and file upload/download via S3 presigned URLs.
-- Built admin dashboards for mobile game operators, covering analytics, game management,
-  live in-game event scheduling, and in-game currency configuration.
-- Royal Path — React Native app built and shipped end to end with gesture-based swipe
-  interactions, animation and local state.
+- FormKiQ (https://formkiq.com) — TypeScript/React front end for an AWS-partnered document management
+  platform handling 50M+ documents. REST API integration and direct-to-S3 uploads via presigned URLs.
+- Admin dashboards for mobile game operators: player and revenue analytics, live in-game events
+  and in-game currency configuration.
+- Royal Path — React Native swipe game shipped to Google Play.
   https://play.google.com/store/apps/details?id=com.royalpath.voidverse
-- Conscious (https://www.getconscious.online/) — Chrome extension that interrupts impulse
-  purchases on Amazon and tracks money saved by walking away. Shopping data stays in the browser.
+- Conscious (https://www.getconscious.online/) — Chrome extension (Firebase, Firestore) shipped to the
+  Chrome Web Store; interrupts impulse purchases on Amazon and tracks money saved.
+- Owned scoping, delivery and client communication.
 
-## Financial Statement Auditor — KPMG Canada, Baker Tilly Ukraine (Dec 2018 – Aug 2022)
+## Financial Statement Auditor — Baker Tilly Ukraine (2018 – 2022), KPMG Canada (2022)
 
-Worked daily with sensitive client and financial data — the compliance, identity and risk
-context that customer onboarding and verification flows are built on.
+Audited financial statements before switching to engineering. Worked daily with sensitive client financial data.
 
 ## Skills
 
-AI / LLM: LLM integration, prompt engineering, agent tool calling, agent-to-UI (A2UI) streaming, Google Gemini / Vertex AI, AI-assisted development (Claude Code, Cursor).
-Frontend: React, Next.js, React Native, Tailwind CSS, shadcn/ui, MUI, design systems.
-Languages: TypeScript, JavaScript, SQL, Python, HTML, CSS.
-Backend & data: Node.js, PostgreSQL, Supabase, GraphQL, REST APIs, Stripe (subscriptions
-and webhooks), WorkOS AuthKit, Google Cloud (GCP).
-Platform & practices: multi-tenant architecture, Git, Vercel, Sentry, Playwright, CI/CD,
-feature flags, Core Web Vitals, end-to-end testing.
+Frontend: React, Next.js, TypeScript, JavaScript, Tailwind CSS, shadcn/ui, React Native, design systems.
+AI / LLM: OpenAI Realtime API, Claude Agent SDK, MCP, Gemini / Vertex AI, LLM tool calling, RAG, prompt engineering.
+Backend & data: Node.js, Python (FastAPI), REST APIs, Server-Sent Events, PostgreSQL, Supabase, Firebase, Stripe, WorkOS.
+Tooling & practices: Git, Vercel, Sentry, Playwright, CI/CD, feature flags, Core Web Vitals,
+end-to-end testing, multi-tenant architecture.
 
 ## Education
 

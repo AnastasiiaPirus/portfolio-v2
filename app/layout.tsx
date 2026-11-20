@@ -12,9 +12,9 @@ import {Analytics} from '@vercel/analytics/react';
 
 const TITLE = 'Anastasiia Pirus — Senior Frontend Engineer, AI Products (React, Next.js)'
 const DESCRIPTION =
-    'Anastasiia Pirus is a Toronto-based senior frontend engineer building AI-first products: generative UI, ' +
-    'streaming AI responses to the interface, multi-tenant platform architecture and Stripe billing, in React and Next.js. ' +
-    'Four years shipping to production. Former KPMG financial statement auditor. Open to senior frontend roles.'
+    'Anastasiia Pirus is a Toronto-based senior frontend engineer building AI products: real-time voice interfaces, ' +
+    'AI webinars, agent tooling (MCP) and Stripe billing, in Next.js and TypeScript. ' +
+    'Four years shipping React and React Native to production. Former financial statement auditor. Open to senior frontend roles.'
 
 export const metadata: Metadata = {
     title: {
@@ -29,9 +29,10 @@ export const metadata: Metadata = {
         'Anastasiia Pirus',
         'senior frontend engineer Toronto',
         'AI product engineer',
-        'generative UI developer',
+        'real-time voice AI interfaces',
+        'OpenAI Realtime API developer',
+        'MCP tools developer',
         'LLM integration frontend',
-        'streaming AI responses to UI',
         'React developer Toronto',
         'Next.js developer Canada',
         'TypeScript engineer',

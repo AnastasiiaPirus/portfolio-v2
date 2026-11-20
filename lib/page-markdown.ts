@@ -22,10 +22,10 @@ export function pageMarkdown(pathname: string): string | null {
         const projectMarkdown = [...projects.projects, ...smallProjects.projects].map(project =>
             `### ${project.title}\n\n${project.description}\n\n${project.links.map(link => `[${link.name}](${link.url})`).join(' · ')}`,
         ).join('\n\n')
-        return `# Anastasiia Pirus\n\nSenior frontend engineer. AI-first products.\n\nToronto-based. Building generative UI, streaming AI responses to the interface, and multi-tenant platforms in React and Next.js. [More about me](${SITE_URL}/about).\n\n## Projects\n\n${projectMarkdown}\n\n## Recent articles\n\n${blogIndex()}\n\n## Contact\n\nEmail: [a.pirus2000@gmail.com](mailto:a.pirus2000@gmail.com). Based in Toronto, Canada. Open to senior frontend roles.\n\n## Explore\n\n${pageLinks}\n`
+        return `# Anastasiia Pirus\n\nSenior frontend engineer. AI-first products.\n\nToronto-based. Building AI products in Next.js and TypeScript: real-time voice interfaces, agent tooling and billing. [More about me](${SITE_URL}/about).\n\n## Projects\n\n${projectMarkdown}\n\n## Recent articles\n\n${blogIndex()}\n\n## Contact\n\nEmail: [a.pirus2000@gmail.com](mailto:a.pirus2000@gmail.com). Based in Toronto, Canada. Open to senior frontend roles.\n\n## Explore\n\n${pageLinks}\n`
     }
     if (path === '/about') {
-        const jobs = experience.map(job => `### ${job.role}\n\n${job.org} · ${job.period}\n\n${job.points.map(point => `- ${point}`).join('\n')}`).join('\n\n')
+        const jobs = experience.map(job => `### ${job.role}\n\n${job.org} · ${job.period}\n\n${'summary' in job && job.summary ? `${job.summary}\n\n` : ''}${job.points.map(point => `- ${point}`).join('\n')}`).join('\n\n')
         const skills = stack.map(group => `### ${group.group}\n\n${group.items.join(', ')}`).join('\n\n')
         return `# Anastasiia Pirus\n\nSenior frontend engineer, building AI-first products.\n\n${profileParagraphs.join('\n\n')}\n\nBased in Toronto. Open to senior frontend roles.\n\n## Experience\n\n${jobs}\n\n## Stack\n\n${skills}\n\n## Education and writing\n\n- Meta Front-End Developer Professional Certificate\n- CS50 — Harvard University\n- M.S. Accounting & Taxation — Odesa National Economic University\n\nMy front-end tutorials on React and Next.js have been read more than 100,000 times, covering the App Router, custom loading and error states, responsive navigation and typography setup. [Read the blog](${SITE_URL}/blog).\n\n## Explore\n\n${pageLinks}\n`
     }

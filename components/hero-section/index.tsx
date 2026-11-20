@@ -13,8 +13,8 @@ function HeroSection() {
                                 <h1 className="heading1">Anastasiia Pirus</h1>
                                 <p className="body1">Senior frontend engineer. AI-first products.</p>
                                 <p className="body2 mt-2">
-                                    Toronto-based. Building generative UI, streaming AI responses to the
-                                    interface, and multi-tenant platforms in React and Next.js.{' '}
+                                    Toronto-based. Building AI products in Next.js and TypeScript: real-time
+                                    voice interfaces, agent tooling and billing.{' '}
                                     <a href="/about" className="underline">More about me</a>.
                                 </p>
                             </div>

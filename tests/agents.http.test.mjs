@@ -20,7 +20,7 @@ test('homepage delivers meaningful semantic content without JavaScript', async (
     assert.match(html, /<h1\b[^>]*>Anastasiia Pirus<\/h1>/)
     const prose = text(html)
     assert.ok(prose.length >= 500)
-    assert.match(prose, /Envoy Studio/)
+    assert.match(prose, /HyperLive/)
     assert.match(prose, /How I stopped my doomscrolling forever/)
 })
 

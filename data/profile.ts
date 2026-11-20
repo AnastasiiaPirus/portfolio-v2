@@ -1,30 +1,25 @@
 export const profileParagraphs = [
-    "Front-end developer focused on how people engage with a product, and on the business goals behind it. I came into engineering from financial audit at KPMG, so I think about the customer and the business first and I’m comfortable in regulated, money-handling products.",
-    "Over four years I’ve shipped React and React Native apps to production end to end, closing the gap between business needs and technical architecture. Lately building AI-first products and weaving AI through my own work processes."
+    "Frontend engineer with full-stack range, focused on how people use a product and the business goal behind it. I’m building AI products at an early-stage startup: real-time voice interfaces, agent tooling, billing and analytics in Next.js and TypeScript.",
+    "Four years shipping React and React Native apps to production. I came to engineering from financial audit at Baker Tilly and KPMG, so I think about the customer and the business first."
 ]
 export const stack = [
     {
+        group: 'Frontend',
+        items: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'shadcn/ui', 'React Native', 'Design systems'],
+    },
+    {
         group: 'AI / LLM',
         items: [
-            'LLM integration', 'Prompt engineering', 'Agent tool calling',
-            'Agent-to-UI (A2UI) streaming', 'Google Gemini / Vertex AI',
-            'AI-assisted development (Claude Code, Cursor)',
+            'OpenAI Realtime API', 'Claude Agent SDK', 'MCP', 'Gemini / Vertex AI',
+            'LLM tool calling', 'RAG', 'Prompt engineering',
         ],
     },
     {
-        group: 'Frontend',
-        items: ['React', 'Next.js', 'React Native', 'TypeScript', 'Tailwind CSS', 'shadcn/ui', 'MUI', 'Design systems'],
-    },
-    {
-        group: 'Languages',
-        items: ['TypeScript', 'JavaScript', 'SQL', 'Python', 'HTML', 'CSS'],
-    },
-    {
         group: 'Backend & data',
-        items: ['Node.js', 'GraphQL', 'REST APIs', 'PostgreSQL', 'Supabase', 'Stripe (subscriptions & webhooks)', 'WorkOS AuthKit', 'Google Cloud (GCP)'],
+        items: ['Node.js', 'Python (FastAPI)', 'REST APIs', 'Server-Sent Events', 'PostgreSQL', 'Supabase', 'Firebase', 'Stripe', 'WorkOS'],
     },
     {
-        group: 'Platform & practices',
+        group: 'Tooling & practices',
         items: ['Git', 'Vercel', 'Sentry', 'Playwright', 'CI/CD', 'Feature flags', 'Core Web Vitals', 'End-to-end testing', 'Multi-tenant architecture'],
     },
 ]
@@ -32,13 +27,15 @@ export const stack = [
 export const experience = [
     {
         role: 'Senior Frontend Developer',
-        org: 'CreatorsAGI · Bellevue, WA, USA',
+        org: 'CreatorsAGI · Remote (Toronto)',
         period: 'Feb 2025 — present',
+        summary: 'AI startup behind HyperLive: white-labeled AI webinars and sales agents that companies run on their own domains.',
         points: [
-            'On Envoy Studio — CreatorsAGI’s platform for deploying configurable AI agents on clients’ own domains — architected the multi-tenant foundation: per-tenant authentication and onboarding with WorkOS AuthKit, tenant isolation, and dynamic subdomain and custom-domain routing in Next.js, plus a reusable component SDK and design system teams use to compose client-specific experiences.',
-            'Built the generative-UI system at the core of the product: structured AI outputs become modular React components, streamed live to client sites over SSE via an agent-to-UI (A2UI) layer.',
-            'Shipped M’adrono (ai.talmido.org) end to end, prototype to production — an AI lesson-planning assistant live since September 2025, with 25,000+ queries from roughly 850 monthly active users.',
-            'Drove platform performance and Core Web Vitals — cut LCP by about 97% (~6.5s to under 200ms) across 25+ pages, and reduced response latency by about 40%.',
+            'Own the frontend of both user-facing apps — the visitor-facing app and the admin Studio — taking features from design through the API and AI services they depend on (Next.js, TypeScript, Python).',
+            'Built the AI webinar experience from scratch: an AI presenter narrates a company’s slides in real time (OpenAI Realtime API), visitors raise a hand to ask questions by voice, with live captions throughout.',
+            'Built chat-based configuration for the AI agent: wrote 10+ MCP tools for Studio’s AI assistant (Claude Agent SDK, Python), so admins set up booking, branding, analytics and slide cues in plain language instead of navigating settings.',
+            'Shipped self-serve billing in Studio: Stripe checkout, prepaid credit balance, plan-based feature gating and a trial-expired flow that leads users to upgrade.',
+            'Added distributed tracing across Next.js and Python services with Sentry, so the team can see where each chat response spends its time.',
         ],
     },
     {
@@ -46,17 +43,17 @@ export const experience = [
         org: 'Toronto, Canada',
         period: 'Apr 2022 — Feb 2025',
         points: [
-            'Built the TypeScript/React front end for FormKiQ, an AWS-partnered document platform handling 50M+ documents — REST API integration and file upload/download via S3 presigned URLs.',
-            'Built admin dashboards for mobile game operators, covering analytics plus tools to manage games, schedule live in-game events and configure in-game currencies.',
-            'Built and shipped a React Native app end to end — gesture-based swipe interactions, animation and local state — released on the Google Play Store.',
+            'Built the TypeScript/React front end for FormKiQ, an AWS-partnered document management platform handling 50M+ documents — REST API integration and direct-to-S3 uploads via presigned URLs.',
+            'Built admin dashboards for mobile game operators: player and revenue analytics, live in-game events and in-game currency configuration.',
+            'Shipped a React Native swipe game to Google Play and a Chrome extension (Firebase, Firestore) to the Web Store, owning scoping, delivery and client communication.',
         ],
     },
     {
         role: 'Financial Statement Auditor',
-        org: 'KPMG Canada · Baker Tilly Ukraine LLC',
-        period: 'Dec 2018 — Aug 2022',
+        org: 'Baker Tilly Ukraine · KPMG Canada',
+        period: '2018 — 2022',
         points: [
-            'Worked daily with sensitive client and financial data — the compliance, identity and risk context that customer onboarding and verification flows are built on.',
+            'Audited financial statements at Baker Tilly Ukraine (2018–2022), then KPMG Canada (2022), before switching to engineering. Worked daily with sensitive client financial data.',
         ],
     },
 ]
